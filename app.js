@@ -38,6 +38,11 @@ console.log(convertFahrToCelcius(1))
 
 // solution to No 2
 
+checkYuGiOh("5");
+checkYuGiOh(10);
+checkYuGiOh(30);
+checkYuGiOh("fizzbuh is meh")
+
 function checkYuGiOh (n) {
     let counter = parseInt(n);
     if(isNaN(counter)) {
@@ -63,7 +68,4 @@ function checkYuGiOh (n) {
 
     console.log (result);
 }
-checkYuGiOh("5");
-checkYuGiOh(10);
-checkYuGiOh(30);
-checkYuGiOh("fizzbuh is meh")
+
