@@ -39,6 +39,7 @@ console.log(convertFahrToCelcius(1))
 // solution to No 2
 
 checkYuGiOh("5");
+
 checkYuGiOh("fizzbuh is meh")
 
 function checkYuGiOh (n) {
@@ -56,8 +57,8 @@ function checkYuGiOh (n) {
         else {
             value = "";
             if ((index + 1) % 2 === 0) value = "yu";
-            if ((index + 1) % 3 === 0) value = "" ? (value = "gi") : (value += "-gi");
-            if ((index + 1) % 5 === 0) value = "" ? (value = "oh") : (value += "-oh");
+            if ((index + 1) % 3 === 0) value === "" ? (value = "gi") : (value += "-gi");
+            if ((index + 1) % 5 === 0) value === "" ? (value = "oh") : (value += "-oh");
         }
 
         return value;
