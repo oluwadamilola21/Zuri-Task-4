@@ -28,6 +28,10 @@ function convertFahrToCelcius(fahrenheit) {
         if(fahrenheit === "") {
             answer = `${JSON.stringify(fahrenheit)}is not a valid number but a/an ${typeOfFahrenheit}.`
         }
+      
+        if (typeof fahrenheit === "boolean") {
+        answer = `${fahrenheit} is not a valid number but a/an ${typeOfFahrenheit}.`
+        }
     }
     return answer;
 }
